@@ -14,7 +14,16 @@
    <body>
       
       <script src="three.min.js"></script>
-      <script src="script.js"></script>   
+      <script src="script.js"></script>
+      <script src="audioplayer.js"></script>
+   
+      <script>
+         var player = new audioplayer({
+            src: '02 - Hyperballad.mp3',
+            bufferWidth: 128
+         });         
+      </script>
+
    </body>
 
 </html>
